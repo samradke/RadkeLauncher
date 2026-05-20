@@ -1,0 +1,17 @@
+# Ignorar arquivos temporários do Python (compilados)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar ambientes virtuais (caso a pasta venv esteja no seu projeto)
+venv/
+.venv/
+
+# Ignorar arquivos de Log do launcher e do Minecraft
+*.log
+*.log.gz
+logs/
+
+# Arquivos de configuração do VS Code (opcional, mas recomendado)
+.vscode/
