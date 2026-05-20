@@ -1,4 +1,5 @@
-from launcher.menu import run_menu
+from launcher.interface import LauncherInterface
 
 if __name__ == "__main__":
-    run_menu()
+    app = LauncherInterface()
+    app.run()
